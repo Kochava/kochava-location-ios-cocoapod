@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'KochavaLocationiOS_Example' do
-  pod 'KochavaTrackeriOS'
+  # pod 'KochavaTrackeriOS'
   pod 'KochavaLocationiOS', :path => '../'
 
   target 'KochavaLocationiOS_Tests' do
