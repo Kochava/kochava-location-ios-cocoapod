@@ -29,7 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, KochavaTrackerDelegate
         
         // trackerParametersDictionary
         var trackerParametersDictionary: [AnyHashable: Any] = [:]
-        trackerParametersDictionary[kKVAParamAppGUIDStringKey] = "koios-objective-c-sdk-testing-w1nfw0d"//"_YOUR_KOCHAVA_APP_GUID_"
+        trackerParametersDictionary[kKVAParamAppGUIDStringKey] = "_YOUR_KOCHAVA_APP_GUID_"
         trackerParametersDictionary[kKVAParamLogLevelEnumKey] = kKVALogLevelEnumTrace
 
         // KochavaTracker.shared
