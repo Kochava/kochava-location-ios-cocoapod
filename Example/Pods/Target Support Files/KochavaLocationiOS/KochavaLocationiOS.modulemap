@@ -1,0 +1,6 @@
+framework module KochavaLocationiOS {
+  umbrella header "KochavaLocationiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

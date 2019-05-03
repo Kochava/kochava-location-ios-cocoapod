@@ -1,0 +1,22 @@
+{
+  "name": "KochavaLocationiOS",
+  "version": "0.1.0",
+  "summary": "A short description of KochavaLocationiOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/johnbushnell/KochavaLocationiOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "johnbushnell": "jbushnell@kochava.com"
+  },
+  "source": {
+    "git": "https://github.com/johnbushnell/KochavaLocationiOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KochavaLocationiOS/Classes/**/*"
+}
