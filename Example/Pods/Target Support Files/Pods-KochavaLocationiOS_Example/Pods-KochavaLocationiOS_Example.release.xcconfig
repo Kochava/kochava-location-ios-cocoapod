@@ -1,10 +1,9 @@
-ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/KochavaLocationiOS"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/KochavaLocationiOS" "${PODS_ROOT}/Headers/Public/KochavaTrackeriOS"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/KochavaLocationiOS/KochavaLocationiOS.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "KochavaLocationiOS"
-OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../KochavaLocationiOS/Libraries" "${PODS_ROOT}/KochavaTrackeriOS/KochavaTrackeriOS/Libraries"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/KochavaLocationiOS" -isystem "${PODS_ROOT}/Headers/Public/KochavaTrackeriOS"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"KochavaCoreiOS" -l"KochavaLocationiOS" -l"KochavaTrackeriOS" -framework "AVFoundation" -framework "AdSupport" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreTelephony" -framework "Foundation" -framework "SystemConfiguration" -framework "UIKit" -framework "WebKit" -framework "iAd"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

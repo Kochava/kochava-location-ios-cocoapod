@@ -1,16 +1,23 @@
 PODS:
-  - KochavaLocationiOS (0.1.0)
+  - KochavaLocationiOS (3.10.0)
+  - KochavaTrackeriOS (3.10.0)
 
 DEPENDENCIES:
   - KochavaLocationiOS (from `../`)
+  - KochavaTrackeriOS
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - KochavaTrackeriOS
 
 EXTERNAL SOURCES:
   KochavaLocationiOS:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KochavaLocationiOS: db801b822e64b1498b040043f2ebd52333a2f5fb
+  KochavaLocationiOS: 9057699db87a7802b4571c5d038366538c2b9a5a
+  KochavaTrackeriOS: 0d171c5512931758abbf4b4527d48ca6fdcbc166
 
-PODFILE CHECKSUM: 6d9331a6e7a88961270fbeec4506ee1c6ac83471
+PODFILE CHECKSUM: ac1bce4e7c3a8668d8b99d4a072b9c8b6b88bcd0
 
 COCOAPODS: 1.5.2

@@ -1,5 +1,5 @@
 import XCTest
-import KochavaLocationiOS
+//import KochavaLocationiOS
 
 class Tests: XCTestCase {
     

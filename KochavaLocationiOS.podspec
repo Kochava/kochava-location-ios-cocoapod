@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'KochavaLocationiOS'
-    s.version          = '3.10.0'
+    s.version          = '0.1.0'
     s.summary          = 'The KochavaLocation module of the KochavaTracker iOS SDK.'
     
     # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     #   * Finally, don't worry about the indent, CocoaPods strips it!
     
     s.description  = <<-DESC
-    Provides location and geofence engagement.
+    The KochavaLocation module provides location and geofence engagement.
     DESC
     
     s.homepage         = 'http://www.kochava.com'

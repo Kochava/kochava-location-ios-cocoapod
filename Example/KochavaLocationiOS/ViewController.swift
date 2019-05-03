@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  KochavaLocationiOS
 //
-//  Created by johnbushnell on 05/03/2019.
-//  Copyright (c) 2019 johnbushnell. All rights reserved.
+//  Created by johnbushnell on 05/01/2019.
+//  Copyright (c) 2019 Kochava. All rights reserved.
 //
 
 import UIKit
