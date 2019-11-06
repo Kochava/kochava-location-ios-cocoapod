@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'KochavaLocationiOS'
-    s.version          = '3.11.3'
+    s.version          = '3.11.4'
     s.summary          = 'The KochavaLocation module of the KochavaTracker iOS SDK.'
     
     # This description is used to generate tags and improve search results.
@@ -45,5 +45,5 @@ Pod::Spec.new do |s|
     s.preserve_path = 'KochavaLocationiOS/Libraries/libKochavaLocationiOS.a'
     s.library = 'KochavaLocationiOS'
     
-    s.dependency 'KochavaTrackeriOS'
+    s.dependency 'KochavaTrackeriOS', '3.11.4'
 end

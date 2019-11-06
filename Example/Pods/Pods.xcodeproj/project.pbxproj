@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13105DE7BD5BFBE7B50D7D5FBACC2CC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		323A8D5C77D23479D22013D29FA2F7D9 /* Pods-KochavaLocationiOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE40C85272CD7435D171A0674AA74F3D /* Pods-KochavaLocationiOS_Tests-dummy.m */; };
-		408714A46BB25E72C74DD12E495176FB /* Pods-KochavaLocationiOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A00EF8FF87A42FEB6CA9DE5417545FD3 /* Pods-KochavaLocationiOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88734C4B3FB000ACC44740740EF27C3A /* Pods-KochavaLocationiOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D960FFC5A20348822F35EE0A5DF485FB /* Pods-KochavaLocationiOS_Example-dummy.m */; };
-		A4EA6582FCD61BA81D97C335ABAA97D6 /* Pods-KochavaLocationiOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEEEB6530992AA1AF80601033E72E68F /* Pods-KochavaLocationiOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1D6C61AB572BD9A9F677B1A116DA024 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7481193AEB96580A2789527438B06C67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A47F822AD53076AE833B0F05CE4F6756 /* Pods-KochavaLocationiOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEEEB6530992AA1AF80601033E72E68F /* Pods-KochavaLocationiOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C49DAC1F70652DD9CA94CAA2059CD4D0 /* Pods-KochavaLocationiOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D960FFC5A20348822F35EE0A5DF485FB /* Pods-KochavaLocationiOS_Example-dummy.m */; };
+		CB7069BFDA8F477F3A1700F907F36402 /* Pods-KochavaLocationiOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE40C85272CD7435D171A0674AA74F3D /* Pods-KochavaLocationiOS_Tests-dummy.m */; };
+		D68A365FD78307D99D4D4315CFB8FDBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FAFB15EB29E8DB0E4A359CD1E882DF8F /* Pods-KochavaLocationiOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A00EF8FF87A42FEB6CA9DE5417545FD3 /* Pods-KochavaLocationiOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0F32B599B6D34D65A98807910C03CCC9 /* PBXContainerItemProxy */ = {
+		623763B8F3D1D7420356DA8AECD3017C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8BDE8D1A7BB52BAC2F4A9A3ECCB6BDD1;
+			remoteGlobalIDString = 2425C0ECE5103AC2C392106CE850BF7C;
 			remoteInfo = "Pods-KochavaLocationiOS_Example";
 		};
 /* End PBXContainerItemProxy section */
@@ -76,19 +76,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		513CD6F42216DE517792DFE77D6FF433 /* Frameworks */ = {
+		3FCA051C82ADDE637117EA393572E121 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13105DE7BD5BFBE7B50D7D5FBACC2CC5 /* Foundation.framework in Frameworks */,
+				7481193AEB96580A2789527438B06C67 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A68D69F985F79CC7C9F78D6EB254939F /* Frameworks */ = {
+		C24D1ACFA6355AC988C2625AF9D17745 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1D6C61AB572BD9A9F677B1A116DA024 /* Foundation.framework in Frameworks */,
+				D68A365FD78307D99D4D4315CFB8FDBE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,33 +259,33 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		103475111DDCA6A7BD6F1C6CDFE1A23C /* Headers */ = {
+		348C574690AC95742225548B6B337EEF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				408714A46BB25E72C74DD12E495176FB /* Pods-KochavaLocationiOS_Tests-umbrella.h in Headers */,
+				FAFB15EB29E8DB0E4A359CD1E882DF8F /* Pods-KochavaLocationiOS_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78E93B5475880A987EBAB76E40A554AC /* Headers */ = {
+		9591C1CC73E50BD32A410F933D9954FD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4EA6582FCD61BA81D97C335ABAA97D6 /* Pods-KochavaLocationiOS_Example-umbrella.h in Headers */,
+				A47F822AD53076AE833B0F05CE4F6756 /* Pods-KochavaLocationiOS_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8BDE8D1A7BB52BAC2F4A9A3ECCB6BDD1 /* Pods-KochavaLocationiOS_Example */ = {
+		2425C0ECE5103AC2C392106CE850BF7C /* Pods-KochavaLocationiOS_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8B964F51EAF3338D26E58EEE328A9BA /* Build configuration list for PBXNativeTarget "Pods-KochavaLocationiOS_Example" */;
+			buildConfigurationList = 326A8EF066A3337DE6D8D7E28B23AB2C /* Build configuration list for PBXNativeTarget "Pods-KochavaLocationiOS_Example" */;
 			buildPhases = (
-				78E93B5475880A987EBAB76E40A554AC /* Headers */,
-				B1B43482AED6ED4B98FE9B482308746C /* Sources */,
-				513CD6F42216DE517792DFE77D6FF433 /* Frameworks */,
-				696AF0DF8DD90230905EABF2F653F205 /* Resources */,
+				9591C1CC73E50BD32A410F933D9954FD /* Headers */,
+				3EB832B3CAA41E085B1FF425CC48C628 /* Sources */,
+				3FCA051C82ADDE637117EA393572E121 /* Frameworks */,
+				C7A2D756098A97EA8B6D3BF59331B7FF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -296,19 +296,19 @@
 			productReference = F3C18E20B4ECC8C96AF29B861C90C8BE /* Pods_KochavaLocationiOS_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F2228A70C0D24B715DA7443001673142 /* Pods-KochavaLocationiOS_Tests */ = {
+		C428887FD17A9341746D3E4D716743C8 /* Pods-KochavaLocationiOS_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87436147C4C325ED8529B2487ED3331C /* Build configuration list for PBXNativeTarget "Pods-KochavaLocationiOS_Tests" */;
+			buildConfigurationList = 883CC9C5D490951C5D3A654B1D95455D /* Build configuration list for PBXNativeTarget "Pods-KochavaLocationiOS_Tests" */;
 			buildPhases = (
-				103475111DDCA6A7BD6F1C6CDFE1A23C /* Headers */,
-				5C31DA130D38B12D291CA6875C9549D0 /* Sources */,
-				A68D69F985F79CC7C9F78D6EB254939F /* Frameworks */,
-				ACD484FAF5CBC83CC8ED3BE0A8C84A96 /* Resources */,
+				348C574690AC95742225548B6B337EEF /* Headers */,
+				77F59B9CCD1199F9E4D8140477F061F9 /* Sources */,
+				C24D1ACFA6355AC988C2625AF9D17745 /* Frameworks */,
+				DD390724633C911BD0FD721E798FA1CE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				001AF896E805516C2A2D205671640836 /* PBXTargetDependency */,
+				C9685DF0CBDE97A922E42BA30418FC04 /* PBXTargetDependency */,
 			);
 			name = "Pods-KochavaLocationiOS_Tests";
 			productName = "Pods-KochavaLocationiOS_Tests";
@@ -321,8 +321,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -330,27 +330,28 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = A7A398D761AEF4C6ABBDDAAA7D2A9199 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8BDE8D1A7BB52BAC2F4A9A3ECCB6BDD1 /* Pods-KochavaLocationiOS_Example */,
-				F2228A70C0D24B715DA7443001673142 /* Pods-KochavaLocationiOS_Tests */,
+				2425C0ECE5103AC2C392106CE850BF7C /* Pods-KochavaLocationiOS_Example */,
+				C428887FD17A9341746D3E4D716743C8 /* Pods-KochavaLocationiOS_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		696AF0DF8DD90230905EABF2F653F205 /* Resources */ = {
+		C7A2D756098A97EA8B6D3BF59331B7FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACD484FAF5CBC83CC8ED3BE0A8C84A96 /* Resources */ = {
+		DD390724633C911BD0FD721E798FA1CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,37 +361,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5C31DA130D38B12D291CA6875C9549D0 /* Sources */ = {
+		3EB832B3CAA41E085B1FF425CC48C628 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				323A8D5C77D23479D22013D29FA2F7D9 /* Pods-KochavaLocationiOS_Tests-dummy.m in Sources */,
+				C49DAC1F70652DD9CA94CAA2059CD4D0 /* Pods-KochavaLocationiOS_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1B43482AED6ED4B98FE9B482308746C /* Sources */ = {
+		77F59B9CCD1199F9E4D8140477F061F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88734C4B3FB000ACC44740740EF27C3A /* Pods-KochavaLocationiOS_Example-dummy.m in Sources */,
+				CB7069BFDA8F477F3A1700F907F36402 /* Pods-KochavaLocationiOS_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		001AF896E805516C2A2D205671640836 /* PBXTargetDependency */ = {
+		C9685DF0CBDE97A922E42BA30418FC04 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-KochavaLocationiOS_Example";
-			target = 8BDE8D1A7BB52BAC2F4A9A3ECCB6BDD1 /* Pods-KochavaLocationiOS_Example */;
-			targetProxy = 0F32B599B6D34D65A98807910C03CCC9 /* PBXContainerItemProxy */;
+			target = 2425C0ECE5103AC2C392106CE850BF7C /* Pods-KochavaLocationiOS_Example */;
+			targetProxy = 623763B8F3D1D7420356DA8AECD3017C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		34D8C2EF24872B869CFF4BF3546A7B39 /* Release */ = {
+		2C1E112F7EE1A2180472B159071AE220 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8F77136572EC06330D75B62D81CD819 /* Pods-KochavaLocationiOS_Tests.release.xcconfig */;
+			baseConfigurationReference = D6E75A7B74C271D965F1120289DF4AE1 /* Pods-KochavaLocationiOS_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -402,12 +403,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KochavaLocationiOS_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-KochavaLocationiOS_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KochavaLocationiOS_Tests/Pods-KochavaLocationiOS_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-KochavaLocationiOS_Example/Pods-KochavaLocationiOS_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -550,7 +551,7 @@
 			};
 			name = Debug;
 		};
-		865C5283C0E151D6FA5AD60CCD87163B /* Debug */ = {
+		886EF30C00282778F79A814468C0ABC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 42537EA2E6C552AA71F88BC0BAC3D347 /* Pods-KochavaLocationiOS_Example.debug.xcconfig */;
 			buildSettings = {
@@ -583,7 +584,7 @@
 			};
 			name = Debug;
 		};
-		A5DA272A40DDD2561B1A7D3EFFF90AE5 /* Debug */ = {
+		AF2E5E94922C5620EAB1BB129C2E4C71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7508FC6D86F7675C2311481C350AA530 /* Pods-KochavaLocationiOS_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -616,9 +617,9 @@
 			};
 			name = Debug;
 		};
-		CFC3F91668DCAB4DA99D78B4A3E23C97 /* Release */ = {
+		CCB388BED6042300225CFBD26F77C45B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6E75A7B74C271D965F1120289DF4AE1 /* Pods-KochavaLocationiOS_Example.release.xcconfig */;
+			baseConfigurationReference = D8F77136572EC06330D75B62D81CD819 /* Pods-KochavaLocationiOS_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -630,12 +631,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KochavaLocationiOS_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-KochavaLocationiOS_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KochavaLocationiOS_Example/Pods-KochavaLocationiOS_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-KochavaLocationiOS_Tests/Pods-KochavaLocationiOS_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -653,6 +654,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		326A8EF066A3337DE6D8D7E28B23AB2C /* Build configuration list for PBXNativeTarget "Pods-KochavaLocationiOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886EF30C00282778F79A814468C0ABC8 /* Debug */,
+				2C1E112F7EE1A2180472B159071AE220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -662,20 +672,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87436147C4C325ED8529B2487ED3331C /* Build configuration list for PBXNativeTarget "Pods-KochavaLocationiOS_Tests" */ = {
+		883CC9C5D490951C5D3A654B1D95455D /* Build configuration list for PBXNativeTarget "Pods-KochavaLocationiOS_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5DA272A40DDD2561B1A7D3EFFF90AE5 /* Debug */,
-				34D8C2EF24872B869CFF4BF3546A7B39 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A8B964F51EAF3338D26E58EEE328A9BA /* Build configuration list for PBXNativeTarget "Pods-KochavaLocationiOS_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				865C5283C0E151D6FA5AD60CCD87163B /* Debug */,
-				CFC3F91668DCAB4DA99D78B4A3E23C97 /* Release */,
+				AF2E5E94922C5620EAB1BB129C2E4C71 /* Debug */,
+				CCB388BED6042300225CFBD26F77C45B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
