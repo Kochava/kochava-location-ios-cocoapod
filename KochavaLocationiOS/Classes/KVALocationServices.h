@@ -2,7 +2,7 @@
 //  KVALocationServices.h
 //
 //  Created by John Bushnell on 11/1/16.
-//  Copyright © 2017 - 2019 Kochava, Inc.  All rights reserved.
+//  Copyright © 2017 - 2020 Kochava, Inc.  All rights reserved.
 //
 
 
@@ -32,6 +32,7 @@
 #endif
 #else
 #import "KVAAsForContextObjectProtocol.h"
+#import "KVAConfigureWithObjectProtocol.h"
 #import "KVAFromObjectProtocol.h"
 #endif
 
@@ -50,9 +51,9 @@
  
  @author John Bushnell
  
- @copyright 2017 - 2019 Kochava, Inc.
+ @copyright 2017 - 2020 Kochava, Inc.
  */
-@interface KVALocationServices : NSObject <KVAAsForContextObjectProtocol, KVAFromObjectProtocol>
+@interface KVALocationServices : NSObject <KVAAsForContextObjectProtocol, KVAConfigureWithObjectProtocol, KVAFromObjectProtocol>
 
 
 

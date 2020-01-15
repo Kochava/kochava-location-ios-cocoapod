@@ -3,14 +3,14 @@ This application makes use of the following third party libraries:
 
 ## KochavaLocationiOS
 
-Copyright (c) 2019 Kochava <support@kochava.com>
+Copyright (c) 2019 - 2020 Kochava <support@kochava.com>
 
 By using this software you consent to Kochava's Terms of Use found here:  https://www.kochava.com/support/terms-of-use/
 
 
 ## KochavaTrackeriOS
 
-Copyright (c) 2019 Kochava <support@kochava.com>
+Copyright (c) 2019 - 2020 Kochava <support@kochava.com>
 
 By using this software you consent to Kochava's Terms of Use found here:  https://www.kochava.com/support/terms-of-use/
 
