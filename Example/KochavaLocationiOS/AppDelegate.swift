@@ -22,8 +22,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, KochavaTrackerDelegate
 
 
     
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
     {
+        print("KVACoreProduct.shared = \(KVACoreProduct.shared.kva_asForContextObject(withContext: .log)!)")
+        print("KVALocationProduct.shared = \(KVALocationProduct.shared.kva_asForContextObject(withContext: .log)!)")
+        print("KVATrackerProduct.shared = \(KVATrackerProduct.shared.kva_asForContextObject(withContext: .log)!)")
+
         // KVALocationProduct
         KVALocationProduct.shared.register()
         

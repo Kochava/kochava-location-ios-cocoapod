@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'KochavaLocationiOS'
-    s.version          = '3.15.0'
+    s.version          = '3.16.0'
     s.summary          = 'The KochavaLocation module of the KochavaTracker iOS SDK.'
     
     # This description is used to generate tags and improve search results.
@@ -38,12 +38,12 @@ Pod::Spec.new do |s|
     
     s.public_header_files = 'KochavaLocationiOS/Classes/**/*.h'
     s.frameworks   = 'Foundation', 'UIKit', 'AVFoundation', 'CoreGraphics', 'CoreLocation', 'SystemConfiguration'
-    # s.dependency 'AFNetworking', '~> 2.3'
-    
+    s.dependency 'KochavaTrackeriOS', '~> 3.16'
+
     s.platform     = :ios, '8.0'
     s.vendored_library = 'KochavaLocationiOS/Libraries/libKochavaLocationiOS.a'
     s.preserve_path = 'KochavaLocationiOS/Libraries/libKochavaLocationiOS.a'
     s.library = 'KochavaLocationiOS'
-    
-    s.dependency 'KochavaTrackeriOS', '3.15.0'
+
+    s.swift_versions = '5.0'
 end

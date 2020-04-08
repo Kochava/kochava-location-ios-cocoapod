@@ -113,8 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				915CCA47D31D4CF6A967F316 /* KochavaLocationiOS.podspec */,
-				2C4B59BFCAA296CBCF47D6B6 /* README.md */,
 				639BA84830A7DF37F173B979 /* LICENSE */,
+				2C4B59BFCAA296CBCF47D6B6 /* README.md */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -179,10 +179,9 @@
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "KochavaLocationiOS" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -382,7 +381,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "KochavaLocationiOS/KochavaLocationiOS_Example-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -400,7 +399,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "KochavaLocationiOS/KochavaLocationiOS_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
