@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'KochavaLocationiOS'
-    s.version          = '3.17.0'
+    s.version          = '4.0.0'
     s.summary          = 'The KochavaLocation module of the KochavaTracker iOS SDK.'
     
     # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     #   * Finally, don't worry about the indent, CocoaPods strips it!
     
     s.description  = <<-DESC
-    The KochavaLocation module provides location and geofence engagement.
+    The KochavaLocation module is an optional module within the Kochava SDK providing geofence engagement and geolocation tracking.
     DESC
     
     s.homepage         = 'http://www.kochava.com'
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/Kochava/kochava-location-ios-cocoapod.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-    s.ios.deployment_target = '8.0'
+    s.ios.deployment_target = '10.3'
     
     s.source_files = 'KochavaLocationiOS/Classes/**/*'
     
@@ -38,9 +38,9 @@ Pod::Spec.new do |s|
     
     s.public_header_files = 'KochavaLocationiOS/Classes/**/*.h'
     s.frameworks   = 'Foundation', 'UIKit', 'AVFoundation', 'CoreGraphics', 'CoreLocation', 'SystemConfiguration'
-    s.dependency 'KochavaTrackeriOS', '~> 3.16'
+    s.dependency 'KochavaTrackeriOS', '~> 4.0.0'
 
-    s.platform     = :ios, '8.0'
+    s.platform     = :ios, '10.3'
     s.vendored_library = 'KochavaLocationiOS/Libraries/libKochavaLocationiOS.a'
     s.preserve_path = 'KochavaLocationiOS/Libraries/libKochavaLocationiOS.a'
     s.library = 'KochavaLocationiOS'

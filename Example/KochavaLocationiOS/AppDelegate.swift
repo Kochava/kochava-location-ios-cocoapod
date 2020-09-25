@@ -13,7 +13,7 @@ import UIKit
 
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, KochavaTrackerDelegate
+class AppDelegate: UIResponder, UIApplicationDelegate
 {
 
     
@@ -24,20 +24,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, KochavaTrackerDelegate
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
     {
-        print("KVACoreProduct.shared = \(KVACoreProduct.shared.kva_asForContextObject(withContext: .log)!)")
-        print("KVALocationProduct.shared = \(KVALocationProduct.shared.kva_asForContextObject(withContext: .log)!)")
-        print("KVATrackerProduct.shared = \(KVATrackerProduct.shared.kva_asForContextObject(withContext: .log)!)")
+        KVALog.shared.level = .trace
+        
+        print("KVACoreProduct.shared = \(KVACoreProduct.shared.kva_asForContextObject(withContext: .log)!)\n")
 
-        // KVALocationProduct
         KVALocationProduct.shared.register()
         
-        // trackerParametersDictionary
-        var trackerParametersDictionary: [AnyHashable: Any] = [:]
-        trackerParametersDictionary[kKVAParamAppGUIDStringKey] = "_YOUR_KOCHAVA_APP_GUID_"
-        trackerParametersDictionary[kKVAParamLogLevelEnumKey] = kKVALogLevelEnumTrace
-
-        // KochavaTracker.shared
-        KochavaTracker.shared.configure(withParametersDictionary: trackerParametersDictionary, delegate:self)
+        KVATracker.shared.start(withAppGUIDString: "_YOUR_KOCHAVA_APP_GUID_")
         
         return true
     }

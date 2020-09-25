@@ -7,6 +7,10 @@
 
 
 
+#if TARGET_OS_IOS
+
+
+
 #ifndef KVALocationServices_h
 #define KVALocationServices_h
 
@@ -17,19 +21,7 @@
 
 
 #ifdef KOCHAVA_FRAMEWORK
-#if TARGET_OS_TV
-#if TARGET_OS_SIMULATOR
-#import <KochavaCoreTVOSSimulator/KochavaCoreTVOSSimulator.h>
-#else
-#import <KochavaCoreTVOSDevice/KochavaCoreTVOSDevice.h>
-#endif
-#else
-#if TARGET_OS_SIMULATOR
-#import <KochavaCoreiOSSimulator/KochavaCoreiOSSimulator.h>
-#else
-#import <KochavaCoreiOSDevice/KochavaCoreiOSDevice.h>
-#endif
-#endif
+#import <KochavaCore/KochavaCore.h>
 #else
 #import "KVAAsForContextObjectProtocol.h"
 #import "KVAConfigureWithObjectProtocol.h"
@@ -58,6 +50,10 @@
 
 
 @end
+
+
+
+#endif
 
 
 
