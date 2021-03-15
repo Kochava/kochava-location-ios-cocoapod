@@ -21,13 +21,7 @@
 
 
 
-#ifdef KOCHAVA_FRAMEWORK
-#import <KochavaCore/KochavaCore.h>
-#else
-#import "KVAAsForContextObjectProtocol.h"
-#import "KVAConfigureWithObjectProtocol.h"
-#import "KVAFromObjectProtocol.h"
-#endif
+#import "KVALocationServicesProtocol.h"
 
 
 
@@ -46,7 +40,7 @@
  
  @copyright 2017 - 2021 Kochava, Inc.
  */
-@interface KVALocationServices : NSObject <KVAAsForContextObjectProtocol, KVAConfigureWithObjectProtocol, KVAFromObjectProtocol>
+@interface KVALocationServices : NSObject <KVALocationServicesProtocol>
 
 
 

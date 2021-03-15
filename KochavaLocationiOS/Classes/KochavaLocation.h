@@ -17,6 +17,7 @@
 
 #import "KVALocationProduct.h"
 #import "KVALocationServices.h"
+#import "KVALocationServicesProtocol.h"
 
 
 
