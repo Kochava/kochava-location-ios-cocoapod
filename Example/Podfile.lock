@@ -1,9 +1,9 @@
 PODS:
-  - KochavaCoreiOS (4.6.0)
-  - KochavaLocationiOS (4.6.0):
-    - KochavaTrackeriOS (~> 4.6.0)
-  - KochavaTrackeriOS (4.6.0):
-    - KochavaCoreiOS (~> 4.6.0)
+  - KochavaCoreiOS (4.6.1)
+  - KochavaLocationiOS (4.6.1):
+    - KochavaTrackeriOS (~> 4.6.1)
+  - KochavaTrackeriOS (4.6.1):
+    - KochavaCoreiOS (~> 4.6.1)
 
 DEPENDENCIES:
   - KochavaLocationiOS (from `../`)
@@ -18,9 +18,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KochavaCoreiOS: 04b60234d9951955f3c3d2b0a959e804730f40e4
-  KochavaLocationiOS: 0daeba1d8c6b2b8c3bd42f71374be6c5f179f3ce
-  KochavaTrackeriOS: e73b8dabb5186a9652e14396e477fbf5d63756f1
+  KochavaCoreiOS: f5210a82f87f2d67f40fb066ce895ed69c6a4b5e
+  KochavaLocationiOS: 632df6a9f2c7105ae60be44cac4d2d77068ebbf1
+  KochavaTrackeriOS: 3e6168196560a865dba7fcbadad8b5ead724679b
 
 PODFILE CHECKSUM: 816b242bd3dc32ba4514309794f2249f0091e2bd
 
