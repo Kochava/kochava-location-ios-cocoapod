@@ -1,6 +1,6 @@
 {
   "name": "KochavaLocationiOS",
-  "version": "4.7.0",
+  "version": "4.8.0",
   "summary": "The KochavaLocation module of the KochavaTracker iOS SDK.",
   "description": "The KochavaLocation module is an optional module within the Kochava SDK providing geofence engagement and geolocation tracking.",
   "homepage": "http://www.kochava.com",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Kochava/kochava-location-ios-cocoapod.git",
-    "tag": "4.7.0"
+    "tag": "4.8.0"
   },
   "platforms": {
     "ios": "10.3"
@@ -30,7 +30,7 @@
   ],
   "dependencies": {
     "KochavaTrackeriOS": [
-      "~> 4.7.0"
+      "~> 4.8.0"
     ]
   },
   "vendored_libraries": "KochavaLocationiOS/Libraries/libKochavaLocationiOS.a",
